@@ -11,7 +11,6 @@ puts "=====> Criando Conta de Admin Básico"
 Admin.create!(email: 'admin@example.com',
 	password: '123123123' )
 
-end
 
 puts "=====>  Criando Páginas de exemplo"
 

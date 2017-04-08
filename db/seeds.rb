@@ -6,6 +6,13 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
+puts "=====> Criando Conta de Admin Básico"
+
+Admin.create!(email: 'admin@example.com',
+	password: '123123123' )
+
+end
+
 puts "=====>  Criando Páginas de exemplo"
 
 10.times do |index|
